@@ -32,4 +32,72 @@ body {
 ul, li {
     padding: 0;
     list-style: none;
+    font-size: 1rem;
+    font-style: Helvetica;
+    color: white;
+  }
+  p{
+    font-size: 1rem;
+    font-style: Helvetica;
+    font-weight: bold;
+    color: white;
+    }
+h2{
+  font-style: Helvetica;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  }
+.menu{
+  display: flex;
+  width: auto;
+  height: 25rem;
+  justify-content: center;
+  background-image: url("file:///C:/cygwin64/home/Daniele/secretagentsupply/resources/images/moto.jpeg");
+}
+.menu-main{
+  display: flex;
+  width: 960px;
+  height: auto;
+  }
+.news{
+  display:flex;
+  width: 20rem;
+  height: 10rem;
+  background-color: black;
+  margin-top: 9rem;
+  }
+.testo{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 10rem;
+  padding-left: 1rem;
+  }
+.main-categories{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 3rem;
+  background-color: firebrick;
+}
+.categories{
+  display: flex;
+  width: 960px;
+  height: 3rem;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.eyewear,
+.apparel,
+.gadgets,
+.vehicles,
+.classes,
+.contract{
+  font-size: 1rem;
+  font-style: Helvetica;
+  font-weight: bold;
+  color: white;
 }
