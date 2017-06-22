@@ -1,0 +1,35 @@
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: white;
+}
+.main{
+  display: flex;
+  width: auto;
+  background-color: black;
+  justify-content: center;
+}
+.header{
+  display: flex;
+  width: 960px;
+  height: 4rem;
+  background-color: black;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  }
+.logo{
+  width: 2rem;
+  height: 1.5rem;
+}
+.text{
+  color: white;
+  width: 12rem;
+  height: 1rem;
+  margin-left: 4rem;
+}
+ul, li {
+    padding: 0;
+    list-style: none;
+}
